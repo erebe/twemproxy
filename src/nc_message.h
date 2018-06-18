@@ -18,7 +18,7 @@
 #ifndef _NC_MESSAGE_H_
 #define _NC_MESSAGE_H_
 
-#include <nc_core.h>
+#include "nc_core.h"
 
 typedef void (*msg_parse_t)(struct msg *);
 typedef rstatus_t (*msg_add_auth_t)(struct context *ctx, struct conn *c_conn, struct conn *s_conn);

@@ -18,7 +18,7 @@
 #ifndef _NC_MBUF_H_
 #define _NC_MBUF_H_
 
-#include <nc_core.h>
+#include "nc_core.h"
 
 typedef void (*mbuf_copy_t)(struct mbuf *, void *);
 

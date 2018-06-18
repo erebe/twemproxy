@@ -19,8 +19,8 @@
 #include <ctype.h>
 #include <math.h>
 
-#include <nc_core.h>
-#include <nc_proto.h>
+#include "nc_core.h"
+#include "nc_proto.h"
 
 #define RSP_STRING(ACTION)                                                          \
     ACTION( ok,               "+OK\r\n"                                           ) \

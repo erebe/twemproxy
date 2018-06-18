@@ -22,7 +22,7 @@
 #include <sys/types.h>
 #include <stdarg.h>
 
-#include <nc_core.h>
+#include "nc_core.h"
 
 struct string {
     uint32_t len;   /* string length */

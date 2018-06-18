@@ -15,8 +15,8 @@
  * limitations under the License.
  */
 
-#include <nc_core.h>
-#include <nc_server.h>
+#include "nc_core.h"
+#include "nc_server.h"
 
 struct msg *
 rsp_get(struct conn *conn)

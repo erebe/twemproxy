@@ -32,7 +32,7 @@
  *  Updated to murmur2 hash - BP
  */
 
-#include <nc_core.h>
+#include "../nc_core.h"
 
 uint32_t
 hash_murmur(const char *key, size_t length)

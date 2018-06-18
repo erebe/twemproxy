@@ -18,7 +18,7 @@
 #ifndef _NC_CLIENT_H_
 #define _NC_CLIENT_H_
 
-#include <nc_core.h>
+#include "nc_core.h"
 
 bool client_active(struct conn *conn);
 void client_ref(struct conn *conn, void *owner);

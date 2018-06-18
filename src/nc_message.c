@@ -20,8 +20,8 @@
 
 #include <sys/uio.h>
 
-#include <nc_core.h>
-#include <nc_server.h>
+#include "nc_core.h"
+#include "nc_server.h"
 #include <proto/nc_proto.h>
 
 #if (IOV_MAX > 128)

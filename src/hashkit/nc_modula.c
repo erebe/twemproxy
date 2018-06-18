@@ -18,9 +18,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <nc_core.h>
-#include <nc_server.h>
-#include <nc_hashkit.h>
+#include "../nc_core.h"
+#include "../nc_server.h"
+#include "nc_hashkit.h"
 
 #define MODULA_CONTINUUM_ADDITION   10  /* # extra slots to build into continuum */
 #define MODULA_POINTS_PER_SERVER    1

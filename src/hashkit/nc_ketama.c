@@ -19,9 +19,9 @@
 #include <stdlib.h>
 #include <math.h>
 
-#include <nc_core.h>
-#include <nc_server.h>
-#include <nc_hashkit.h>
+#include "../nc_core.h"
+#include "../nc_server.h"
+#include "nc_hashkit.h"
 
 #define KETAMA_CONTINUUM_ADDITION   10  /* # extra slots to build into continuum */
 #define KETAMA_POINTS_PER_SERVER    160 /* 40 points per hash */

@@ -27,7 +27,7 @@
  * Add big endian support
  */
 
-#include <nc_core.h>
+#include "../nc_core.h"
 
 #define hashsize(n) ((uint32_t)1<<(n))
 #define hashmask(n) (hashsize(n)-1)

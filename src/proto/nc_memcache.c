@@ -17,8 +17,8 @@
 
 #include <ctype.h>
 
-#include <nc_core.h>
-#include <nc_proto.h>
+#include "../nc_core.h"
+#include "nc_proto.h"
 
 /*
  * From memcache protocol specification:

@@ -18,7 +18,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include <nc_core.h>
+#include "nc_core.h"
 
 static uint32_t nfree_mbufq;   /* # free mbuf */
 static struct mhdr free_mbufq; /* free mbuf q */

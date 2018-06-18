@@ -18,9 +18,9 @@
 #include <sys/stat.h>
 #include <sys/un.h>
 
-#include <nc_core.h>
-#include <nc_server.h>
-#include <nc_proxy.h>
+#include "nc_core.h"
+#include "nc_server.h"
+#include "nc_proxy.h"
 
 void
 proxy_ref(struct conn *conn, void *owner)

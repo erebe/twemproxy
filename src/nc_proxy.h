@@ -18,7 +18,7 @@
 #ifndef _NC_PROXY_H_
 #define _NC_PROXY_H_
 
-#include <nc_core.h>
+#include "nc_core.h"
 
 void proxy_ref(struct conn *conn, void *owner);
 void proxy_unref(struct conn *conn);

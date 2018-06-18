@@ -18,7 +18,7 @@
 #ifndef _NC_CONNECTION_H_
 #define _NC_CONNECTION_H_
 
-#include <nc_core.h>
+#include "nc_core.h"
 
 typedef rstatus_t (*conn_recv_t)(struct context *, struct conn*);
 typedef struct msg* (*conn_recv_next_t)(struct context *, struct conn *, bool);

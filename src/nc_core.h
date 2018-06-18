@@ -105,18 +105,18 @@ struct event_base;
 #include <sys/resource.h>
 #include <netinet/in.h>
 
-#include <nc_array.h>
-#include <nc_string.h>
-#include <nc_queue.h>
-#include <nc_rbtree.h>
-#include <nc_log.h>
-#include <nc_util.h>
+#include "nc_array.h"
+#include "nc_string.h"
+#include "nc_queue.h"
+#include "nc_rbtree.h"
+#include "nc_log.h"
+#include "nc_util.h"
 #include <event/nc_event.h>
-#include <nc_stats.h>
-#include <nc_mbuf.h>
-#include <nc_message.h>
-#include <nc_connection.h>
-#include <nc_server.h>
+#include "nc_stats.h"
+#include "nc_mbuf.h"
+#include "nc_message.h"
+#include "nc_connection.h"
+#include "nc_server.h"
 
 struct context {
     uint32_t           id;          /* unique context id */

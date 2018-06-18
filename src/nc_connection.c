@@ -17,10 +17,10 @@
 
 #include <sys/uio.h>
 
-#include <nc_core.h>
-#include <nc_server.h>
-#include <nc_client.h>
-#include <nc_proxy.h>
+#include "nc_core.h"
+#include "nc_server.h"
+#include "nc_client.h"
+#include "nc_proxy.h"
 #include <proto/nc_proto.h>
 
 /*

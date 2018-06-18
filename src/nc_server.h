@@ -18,7 +18,7 @@
 #ifndef _NC_SERVER_H_
 #define _NC_SERVER_H_
 
-#include <nc_core.h>
+#include "nc_core.h"
 
 /*
  * server_pool is a collection of servers and their continuum. Each

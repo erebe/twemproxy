@@ -18,7 +18,7 @@
 #ifndef _NC_STATS_H_
 #define _NC_STATS_H_
 
-#include <nc_core.h>
+#include "nc_core.h"
 
 #define STATS_POOL_CODEC(ACTION)                                                                                    \
     /* client behavior */                                                                                           \

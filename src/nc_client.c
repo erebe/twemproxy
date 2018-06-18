@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-#include <nc_core.h>
-#include <nc_server.h>
-#include <nc_client.h>
+#include "nc_core.h"
+#include "nc_server.h"
+#include "nc_client.h"
 
 void
 client_ref(struct conn *conn, void *owner)

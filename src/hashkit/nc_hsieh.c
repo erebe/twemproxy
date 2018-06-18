@@ -23,7 +23,7 @@
  * http://www.azillionmonkeys.com/qed/hash.html
 */
 
-#include <nc_core.h>
+#include "../nc_core.h"
 
 #undef get16bits
 #if (defined(__GNUC__) && defined(__i386__))

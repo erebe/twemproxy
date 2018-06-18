@@ -23,7 +23,7 @@
 #include <sys/un.h>
 #include <yaml.h>
 
-#include <nc_core.h>
+#include "nc_core.h"
 #include <hashkit/nc_hashkit.h>
 
 #define CONF_OK             (void *) NULL
