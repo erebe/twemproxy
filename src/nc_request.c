@@ -476,6 +476,8 @@ req_filter(struct context *ctx, struct conn *conn, struct msg *msg)
 {
     ASSERT(conn->client && !conn->proxy);
 
+    if(msg->type != MSG_REQ_MC_SET) return true;
+
     if (msg_empty(msg)) {
         ASSERT(conn->rmsg == NULL);
         log_debug(LOG_VERB, "filter empty req %"PRIu64" from c %d", msg->id,

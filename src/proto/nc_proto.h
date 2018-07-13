@@ -138,6 +138,8 @@
     (str15icmp(m, c0, c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12, c13, c14) &&       \
      (m[15] == c15 || m[15] == (c15 ^ 0x20)))
 
+void memcache_parse_binary_req(struct msg *r);
+void memcache_parse_binary_rsp(struct msg *r);
 void memcache_parse_req(struct msg *r);
 void memcache_parse_rsp(struct msg *r);
 bool memcache_failure(struct msg *r);

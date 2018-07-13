@@ -284,6 +284,7 @@ rsp_recv_done(struct context *ctx, struct conn *conn, struct msg *msg,
     /* enqueue next message (response), if any */
     conn->rmsg = nmsg;
 
+    return;
     if (rsp_filter(ctx, conn, msg)) {
         return;
     }
